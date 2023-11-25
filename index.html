@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Aniket</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Work</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <!-- <li><a href="#contact">Contact</a></li> -->
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Aniket Sinha</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">         
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Work</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        </div>
+      </div>
+    </nav>
+
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img class="section__pic-container_img" src="./assets/pp1.jpeg" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title1">Aniket Sinha</h1>
+        <p class="section__text__p2">Fullstack Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')"> Download CV </button>
+          <!-- <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button> -->
+        </div>
+        <div id="socials-container">
+          <img src="./assets/twitter.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/'"/>
+          <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://linkedin.com/'"/>
+          <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/'"/>
+          <img src="./assets/lc.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/'"/>
+          <img src="./assets/gfg.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/'"/>
+          
+        </div>
+    </section>
+
+    
+    <section id="about">
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <!-- <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"/>
+        </div> -->
+        <ul class="about-li">
+          <li>Among <strong>TOP 4.05%</strong> in WBJEE 2021 over a pool of 65,000 applicants.</li>
+          <li>Among <strong>TOP 8.68%</strong> in JEE MAIN 2021 over a pool of 10,00,000 applicants.</li>
+          <li>Technohpillia Hackathon Finalist (2022): Among <strong>TOP 17 teams</strong> teams out of <strong>250+ teams</strong>.</li>
+          <li>HackSquad Winner (2022): <strong>(TOP 5%)</strong> Secured <strong>38th RANK </strong> among <strong>750+</strong> teams in a GLOBAL Open-Source competition.</li>
+          <li><strong>Rank 1</strong>in KIMO's-Edge' 23, among 3000+ participants.</li>
+          <li>Solved over <strong>400+</strong>Data Structure and Algorithms based Coding Problems across various coding platforms.</li>
+          <li>Global Rank 3329/24K <strong>(TOP 12.5%)</strong>in Codeforces round 832(Div. 2).</li>
+          <li>Global Rank <strong>673</strong>in Codechef in Staters 71.</li>
+          <li>Leetcode: Rating (Max - 1695) <strong>TOP 12.92%</strong>users.</li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section id="experience">
+      <h1 class="title">Experience</h1>
+      <div class="exp-container">
+      
+      <div>
+        <h2>Project Admin (PA) (Open-Source)</h2>
+        <h4>GSSoC &nbsp;&nbsp;|&nbsp;&nbsp; May,2023–Aug,2023</h4>
+        &nbsp;
+        <ul>
+          <p>Managed my own project, identified and Solved various bugs arouse during students’ contribution.</p>
+          <p>Communicated with both technical and non-technical audiences to gather requirements and keep everyone
+updated on the project’s progress.</p>
+          <p>Ensured the bug fixes was completed on time before the deadline</p>
+          <p><strong>Git</strong> &nbsp;&nbsp;&nbsp; <strong>GitHub</strong> &nbsp;&nbsp;&nbsp;
+        </ul>
+      </div>
+       &nbsp;&nbsp;
+       
+
+       <div>
+        <h2>Student Developer (Open-Source)</h2>
+        <h4>Hacktoberfest &nbsp;&nbsp;|&nbsp;&nbsp; Oct,2022–Nov,2022</h4>
+        &nbsp;
+        <ul>
+          <p>Debugged codes and fixed several bugs listed by the project maintainers.</p>
+          <p>Built features like Standard Login Page, add and delete notes dynamically, dark theme, custom scroll bar etc.</p>
+          <p>Successfully merged 50+ pull requests.</p>
+          <p><strong>HTML5</strong> &nbsp;&nbsp;&nbsp; <strong>CSS3</strong> &nbsp;&nbsp;&nbsp; <strong>JavaScript</strong> &nbsp;&nbsp;&nbsp; <strong>React-bootstrap</strong></p>
+        </ul>
+      </div>
+      &nbsp;&nbsp;
+
+      <div>
+        <h2>Student Developer (Open-Source)</h2>
+        <h4>HackSquad – CodeIN Community &nbsp;&nbsp;|&nbsp;&nbsp; Oct,2022–Nov,2022</h4>
+        &nbsp;
+        <ul>
+          <p>Fixed several bugs and made the website 100% responsive for all devices.</p>
+          <p>Added new features - scroll animation, user feed updating, dark theme, resulting in a 5% increase in daily visitors. </p>
+          <p>Successfully merged 50+ pull requests.</p>
+          <p><strong>HTML5</strong> &nbsp;&nbsp;&nbsp; <strong>CSS3</strong> &nbsp;&nbsp;&nbsp; <strong>JavaScript</strong> &nbsp;&nbsp;&nbsp; <strong>Tailwind CSS</strong>&nbsp;&nbsp;&nbsp; <strong>Tailblocks</strong></p>
+        </ul>
+      </div>
+      &nbsp;&nbsp;
+
+      <div>
+        <h2>Product design & testing Intern</h2>
+        <h4>Flutrr,Kolkata,India &nbsp;&nbsp;|&nbsp;&nbsp; Mar, 2022–May,2022</h4>
+        &nbsp;
+        <ul>
+          <p>Collaborated with the Product Design Team and helped in restructuring the new model FlutrrX.</p>
+          <p>Generated unique <a href="https://docs.google.com/document/d/1j3HyZm7H0fqN240bGAtj15eFm-5uwCx3/edit?rtpof=true&sd=true">product Ideas</a> for the next release which increased the model score by 10%.</p>
+          <p><strong>Canva Pro</strong> &nbsp;&nbsp;&nbsp; <strong>Figma</strong> &nbsp;&nbsp;&nbsp; <strong>Design Fundamentals</strong> &nbsp;&nbsp;&nbsp;</p>
+        </ul>
+      </div>
+      &nbsp;&nbsp;
+
+      <div>
+        <h2>Marketing & Sales Intern</h2>
+        <h4>Flutrr,Kolkata,India &nbsp;&nbsp;|&nbsp;&nbsp; Nov, 2021–Mar,2022</h4>
+        &nbsp;
+        <ul>
+          <p>Developed a planned Marketing Strategy and onboarded a total of 64 co-interns.</p>
+          <p>Lead a team of 20 co-interns, helping the startup to get more users through lead generation.</p>
+          <p><strong>Digital Marketing</strong> &nbsp;&nbsp;&nbsp; <strong>Lead Generation</strong> &nbsp;&nbsp;&nbsp;</p>
+        </ul>
+      </div>
+      &nbsp;&nbsp;
+
+      <div>
+        <h2>Graphic Design Intern</h2>
+        <h4>MRINJOLI LLP (P) LTD &nbsp;&nbsp;|&nbsp;&nbsp; Nov, 2021–Mar,2022</h4>
+        &nbsp;
+        <ul>
+          <p>Contributing in the Graphic Design Team for brands Parul Prakashani & GooFreshy.</p>
+          <p> Created engaging 1:1 posters for their social media pages.</p>
+          <p>Created eye catchy posters that increased their reach & lead conversion almost by 25%.</p>
+          <p><strong>Canva Pro</strong> &nbsp;&nbsp;&nbsp;<p></p>
+        </ul>
+      </div>
+      &nbsp;&nbsp;
+
+      </div>
+    </section>
+    
+  
+  <section id="skills">
+    <h1 class="title">Skills</h1>
+
+    <div class="skills-container">
+      <button class="skill-button"><h1>DSA</h1></button>
+      <button class="skill-button"><h1>C/C++</h1></button>
+      <button class="skill-button"><h1>HTML</h1></button>
+      <button class="skill-button"><h1>CSS</h1></button>
+      <button class="skill-button"><h1>Javascript</h1></button>
+      <button class="skill-button"><h1>PhP</h1></button>
+      <button class="skill-button"><h1>MySQL</h1></button>
+      <button class="skill-button"><h1>BootStrap</h1></button>
+      <button class="skill-button"><h1>Tailwind CSS</h1></button>
+      <button class="skill-button"><h1>React</h1></button>
+      <button class="skill-button"><h1>VS Code</h1></button>
+      <button class="skill-button"><h1>Git & GitHub</h1></button>
+      <button class="skill-button"><h1>Ubuntu</h1></button>
+      <button class="skill-button"><h1>Jupyter Notebook</h1></button>
+      <button class="skill-button"><h1>UI/UX</h1></button>
+      <button class="skill-button"><h1>Figma</h1></button>
+      <button class="skill-button"><h1>Canva</h1></button>
+      <!-- Add more skills as needed -->
+    </div>
+  </section>
+
+  <section id="projects">
+  <h1 class="title">Projects</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/Smart-Dorm.png" alt="Project 1" class="project-img" />
+        </div>
+        <h3 class="experience-sub-title project-title">Students Hostel Finder Website</h3>
+        <div class="cards-desc">
+          <p>This is a fron-end based hostel finder webapp.</p>
+         <p><strong>HTML5</strong> &nbsp;&nbsp;&nbsp; <strong>CSS3</strong> &nbsp;&nbsp;&nbsp; <strong>JavaScript</strong> &nbsp;&nbsp;&nbsp; <strong>Bootstrap</strong>&nbsp;&nbsp;&nbsp;<strong>swiper.js</strong></p>
+        </div>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/aniketsinha2002/smartdorm.github.io'">
+            Github
+          </button>
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://aniketsinha2002.github.io/smartdorm.github.io/'">
+            Live Demo
+          </button>
+        </div>
+      </div>
+
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+        </div>
+        <h3 class="experience-sub-title project-title">SQL Data Analysis CENSUS 2011</h3>
+        <div class="cards-desc">
+          <p>Perfomed data analysis with CENSUS 2011 data.</p>
+         <p><strong>MySQL</strong> &nbsp;&nbsp;&nbsp;<br>br</p>
+        </div>
+        <div class="btn-container">
+          <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/aniketsinha2002/SQL_Data_Analysis_CENSUS2011'">
+            Github
+          </button>
+          <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            Live Demo
+          </button> -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Add more project cards as needed -->
+
+  </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
